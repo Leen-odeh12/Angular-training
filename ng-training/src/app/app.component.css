@@ -1,0 +1,14 @@
+div.info{
+ margin: auto;
+ width: 500px;
+ height: 200px;
+ background-color: rgb(217, 217, 242);
+ text-align: center;
+ padding-top: 15px;
+}
+h2{
+  color: rgb(255, 0, 144);
+}
+p{
+  font-weight: bolder;
+}
