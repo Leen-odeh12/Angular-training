@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-training';
+
+  message ='Angular is the best JS framework for build client server-side app.'
 }
