@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EShoppingComponentComponent } from './e-shopping-component/e-shopping-component.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EShoppingComponentComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,
