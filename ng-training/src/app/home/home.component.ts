@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  slogan : string ="Your One Stop Shop for everything";
 }
