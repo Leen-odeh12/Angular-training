@@ -1,0 +1,20 @@
+.nav-bar{
+  background-color: rgb(232, 139, 105);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+  color: brown;
+}
+nav.navs ul {
+  list-style-type: none;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.navs ul li{
+text-transform: uppercase;
+padding-left: 10px;
+}
