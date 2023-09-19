@@ -8,8 +8,14 @@ import { Component } from '@angular/core';
 export class EventBindingComponent {
 
   value : string =''
-  show(event :Event){
 
+  show(event :Event){
     this.value=(<HTMLInputElement>event.target).value;
   }
+
+  hidden : boolean =false
+  hideAlert() {
+    this.hidden = true;
+  }
+
 }
