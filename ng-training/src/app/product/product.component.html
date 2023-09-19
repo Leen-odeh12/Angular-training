@@ -1,0 +1,10 @@
+<div>
+  <div *ngFor="let item of products" class="all">
+     {{item.id}}
+     <div class="title">{{item.name}}</div>
+     <p [ngStyle]="{color: item.availabel === 'available' ? 'green' : 'red'}"> {{item.availabel}}</p>
+     <p>price : {{item.price}} </p>
+     </div>
+</div>
+<hr>
+

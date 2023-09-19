@@ -1,0 +1,14 @@
+p{
+  background-color: rgb(183, 236, 218);
+  width:200px;
+}
+.title{
+  color:brown;
+  font-weight: 600;
+}
+.all{
+  background-color: cornflowerblue;
+  width:500px;
+  text-align: center;
+   margin: auto;
+}

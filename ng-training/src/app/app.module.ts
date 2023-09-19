@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { ProductsComponent } from './Friends/products.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductsComponent } from './Friends/products.component';
     HomeComponent,
     NotificationsComponent,
     EventBindingComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
