@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { ProductsComponent } from './Friends/products.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     NavComponent,
     HomeComponent,
     NotificationsComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
