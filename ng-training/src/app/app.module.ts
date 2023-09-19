@@ -7,6 +7,7 @@ import { EShoppingComponentComponent } from './e-shopping-component/e-shopping-c
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
     EShoppingComponentComponent,
     NavComponent,
     HomeComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
